@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Advanced-Web-Services-Development2/Assignment-1/',
+  base: '/AWD-homework/Assignment-1/',
   plugins: [react()],
 })
