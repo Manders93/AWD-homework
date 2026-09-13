@@ -55,12 +55,21 @@ jobs:
         working-directory: Assignment-4
         run: npm run build
 
+      - name: Install Assignment 5
+        working-directory: Assignment-5
+        run: npm ci
+
+      - name: Build Assignment 5
+        working-directory: Assignment-5
+        run: npm run build
+
       - name: Prepare website
         run: |
           mkdir -p public/Assignment-1
           mkdir -p public/Assignment-2
           mkdir -p public/Assignment-3
           mkdir -p public/Assignment-4
+          mkdir -p public/Assignment-5
 
           cp index.html public/
 
@@ -68,6 +77,7 @@ jobs:
           cp -r Assignment-2/dist/* public/Assignment-2/
           cp -r Assignment-3/dist/* public/Assignment-3/
           cp -r Assignment-4/dist/* public/Assignment-4/
+          cp -r Assignment-5/dist/* public/Assignment-5/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
