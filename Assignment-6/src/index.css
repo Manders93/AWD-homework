@@ -1,0 +1,17 @@
+:root {
+  --main-bg-color: #242424;
+  --main-color: white;
+
+  font-family: "Luckiest Guy", cursive;
+  font-size: 12pt;
+  color: var(--main-color);
+  background-color: var(--main-bg-color);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
