@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
+//[ApiController, Route("[controller]/country")]
 [ApiController, Route("[controller]/country")]
 public class ApiController(DataContext db) : ControllerBase
 {
