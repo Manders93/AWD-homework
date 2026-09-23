@@ -12,13 +12,13 @@ public class ApiController(DataContext db) : ControllerBase
     {
         return _dataContext.Countries;
     }
-    // http get specific member of collection
+     // http get specific member of collection
     [HttpGet("{id}"), SwaggerOperation(summary: "return specific member of collection", null)]
     public Country? Get(int id)
     {
         return _dataContext.Countries.Find(id);
     }
-     // http post member to collection
+      // http post member to collection
     [HttpPost, SwaggerOperation(summary: "add member to collection", null), ProducesResponseType(typeof(Country), 201), SwaggerResponse(201, "Created")]
     public async Task<ActionResult<Country>> Post([FromBody] Country country) {
         _dataContext.Add(country);

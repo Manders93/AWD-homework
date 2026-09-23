@@ -3,7 +3,6 @@ C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\bin\Publish\appsettin
 C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\bin\Publish\appsettings.json
 C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\bin\Publish\package-lock.json
 C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\bin\Publish\package.json
-C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\bin\Publish\appdb.sqlite
 C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\bin\Publish\Assignment-6.dll
 C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\bin\Publish\Assignment-6.runtimeconfig.json
 C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\bin\Publish\Assignment-6.pdb

@@ -1,5 +1,4 @@
 //var builder = WebApplication.CreateBuilder(args);
-
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -44,7 +43,6 @@ app.UseCors("Open");
 // Configure the HTTP request pipeline.
 // if (app.Environment.IsDevelopment())
 // {
-
     app.UseSwagger();
     app.UseSwaggerUI();
 //}
