@@ -63,7 +63,7 @@ jobs:
         working-directory: Assignment-5
         run: npm run build
 
-        - name: Install Assignment 6
+      - name: Install Assignment 6
         working-directory: Assignment-6
         run: npm ci
 
