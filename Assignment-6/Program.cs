@@ -15,7 +15,7 @@ builder.Services.AddCors(options =>
                 "https://localhost:5173",
                 "http://localhost:5174",
                 "https://localhost:5174",
-                "https://YOUR-GITHUB-USERNAME.github.io"
+                "https://manders93.github.io"
             )
             .AllowAnyMethod()
             .AllowAnyHeader();
@@ -49,12 +49,12 @@ builder.Services.AddSwaggerGen(c =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
-app.UseCors("Open");
-
 app.UseSwagger();
 app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
+
+app.UseCors("Open");
 
 app.UseAuthorization();
 
