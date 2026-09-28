@@ -72,7 +72,7 @@ jobs:
         run: npm run build
 
       - name: Install react-medals-radix
-        working-directory: react-medals-radix
+        working-directory: ./react-medals-radix
         run: npm ci
 
       - name: Build react-medals-radix
