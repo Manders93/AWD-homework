@@ -15,6 +15,8 @@ builder.Services.AddCors(options =>
                 "https://localhost:5173",
                 "http://localhost:5174",
                 "https://localhost:5174",
+                "http://localhost:5175",
+                "https://localhost:5175",
                 "https://manders93.github.io"
             )
             .AllowAnyMethod()
@@ -29,7 +31,8 @@ builder.Services.AddDbContext<DataContext>(options =>
     )
 );
 
-builder.Services.AddControllers();
+//builder.Services.AddControllers();
+builder.Services.AddControllers().AddNewtonsoftJson();
 
 builder.Services.AddEndpointsApiExplorer();
 

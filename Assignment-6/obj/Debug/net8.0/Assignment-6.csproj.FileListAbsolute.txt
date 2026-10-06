@@ -132,3 +132,7 @@ C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\obj\Debug\net8.0\refi
 C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\obj\Debug\net8.0\Assignment-6.pdb
 C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\obj\Debug\net8.0\Assignment-6.genruntimeconfig.cache
 C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\obj\Debug\net8.0\ref\Assignment-6.dll
+C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\asedg\Documents\.github\AWD-homework\Assignment-6\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
